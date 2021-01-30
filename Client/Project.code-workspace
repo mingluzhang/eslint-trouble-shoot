@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "Project"
+		},
+		{
+            "path": "Core"
+        }
+	],
+	"settings": {
+		"eslint.alwaysShowStatus": true,
+		"eslint.probe": [
+			"typescript",
+			"typescriptreact"
+		],
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/.awcache": true,
+			"**/node_modules/**": true,
+			"**/coverage/**": true,
+			"**/obj/**": true,
+			"**/objd/**": true,
+			"**/QLogs/**": true,
+			"**/build/**": true,
+			"**/buildd/**": true,
+			"**/QuickBuild.log": true,
+			"**/AppRead/**": true
+		},
+		"files.trimTrailingWhitespace": true,
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"typescript.tsdk": "${workspaceFolder:Core}/../node_modules/typescript/lib/",
+        "editor.detectIndentation": false,
+        "cSpell.words": [
+            "Texttitle",
+            "adaptivecards",
+            "autoreload",
+            "chunkhash",
+            "entrypoints",
+            "fnames",
+            "highcharts",
+            "iife",
+            "lolex",
+            "mockdata",
+            "pulseprereqs",
+            "snarkdown",
+            "testerror"
+        ]
+	}
+}

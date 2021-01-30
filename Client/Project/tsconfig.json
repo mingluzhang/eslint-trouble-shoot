@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "noImplicitThis": false,
+        "strictBindCallApply": false,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": false,
+        "strictNullChecks": false,
+        "lib": [
+            "es5",
+            "es6",
+            "es7",
+            "dom",
+            "es2015"
+        ]
+    },
+    "include": [
+        ".",
+        "../Core"
+    ],
+    "exclude": [
+        "./**/__mockdata__",
+        "./**/__mocks__",
+        "./Tests",
+        "./**/*.spec.ts",
+        "./**/*.spec.tsx"
+    ]
+}
